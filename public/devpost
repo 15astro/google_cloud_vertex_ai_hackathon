@@ -1,0 +1,27 @@
+## Inspiration
+Vertex AI agent has high potential to enable interactive digital experiences in the schools. Imagine a school in India located in the mountains - using Vertext AI RAGs to learn from the syllabus designated in a more interactive way. Solving maths problems from their textbook exercises using Vertex AI. Learning about history with a summary. 
+
+## What it does
+The Indian Mountain School let students:
+- Explore their textbooks using Generative AI
+- Solve Maths problems with the help of Generative AI
+- Teachers generating questions for the practice of the students using Vertex AI. 
+- Learn in the regional languages from textbooks
+- Check the scorecard and areas of improvement by talking to **Scorecard Bot**
+- Book an admission to school using the **Admission Bot**
+- Health and physical teachers can take assistance from the **Health Both** to enhance their knowledge
+
+## How we built it
+We've built an interactive school experience with Vertex AI Agent Builder using
+- Vertex AI Search Agent
+- Vertex AI Agent
+- Vertex AI DiaglogFlowCS
+
+## Challenges we ran into
+All the APIs from Google Cloud 
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for The Indian Mountain School - Digital Experience by Vertex AI
