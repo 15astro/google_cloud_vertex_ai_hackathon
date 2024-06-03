@@ -1,71 +1,44 @@
-# Getting Started with Create React App
+## Inspiration
+Vertex AI agent has high potential to enable interactive digital experiences in schools. Imagine a school in India located in the mountains - using Vertext AI RAGs to learn from the syllabus designated more interactively. Solving maths problems from their textbook exercises using Vertex AI, learning about history with a summary in the regional languages. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This opens up a new dimension in school-based learning mainly where the students get access to - books, practice exams, content, health and physical information—the single Vertex AI-based place to interact with.
 
-## Available Scripts
+## What it does
+The Indian Mountain School let students:
+- Explore their textbooks using Generative AI
+- Solve Maths problems from textbooks with the help of Generative AI
+- Complete homework with the help of Generative AI.
+- Teachers generating questions for the practice of the students using Vertex AI. 
+- Learn in the **regional languages** from textbooks
+- Check the scorecard and areas of improvement by talking to **Scorecard Bot**.
+- Book an admission to school using the **Admission Bot**.
+- Health and physical teachers can take assistance from the **Health Both** to enhance their knowledge
 
-In the project directory, you can run:
+## How we built it
+We've built an interactive school experience with Vertex AI Agent Builder using
+- Vertex AI Search Agent
+- Vertex AI Agent
+- Vertex AI DiaglogFlowCS
 
-### `npm start`
+The search agent performs RAGs on the prebuilt datastores based on the designated syllabus. This search agent indexes and makes textbooks from various subjects and languages across grades.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Vertex AI Agent uses tools and agents to complete the accomplished goals using instructions, grounding and examples.  The scorecard bot is built by training the RAGs on 10000 student's scorecard data. Based on the datastore, the agent can interpret and communicate the scorecards of the students in a short and simple way
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Vertex AI DiaglogFlowCS brings the benefit of making the generated content available even during a lack of internet connection using helpline number. Health and physical consultants at a school can leverage the agents to enhance their knowledge. 
 
-### `npm test`
+## Challenges we ran into
+We did not face many challenges as all the Google Cloud Vertex AI APIs are easy to integrate into the UI with prebuilt components. I got to learn some of the new concepts on the RAG and the grounding of Gemini.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of
+Ability to seamlessly integrate Vertex AI into The Indian Mountain School site. 
 
-### `npm run build`
+## What we learned
+- Vertex AI Agent Builder
+- Tools, agents and the datastores
+- Retrieval-Augmented Generation
+- DiaglogFlow CX
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# google_vertex_ai_hackathon
+## What's next for The Indian Mountain School - Digital Experience by Vertex AI
+- Enhance the scope by adding several more regional textbooks designated by the respective authorities
+- Adding recommended sports content into the Agent
+- Building more video-based content for the students to learn effectively. 
